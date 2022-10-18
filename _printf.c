@@ -31,13 +31,7 @@ int (*find_function(const char *format))(va_list)
 			return (find_f[i].f);
 	}
 
-	/* while (find_f[i].sc)
-	{
-		if (find_f[i].sc[0] == (*format))
-			return (find_f[i].f);
-		i++;
-	}
-	return (NULL); */
+	return (NULL);
 }
 /**
   * _printf - function that produces output according to a format.
